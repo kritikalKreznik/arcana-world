@@ -1,5 +1,5 @@
-2026/01/20-03:12:49.417 7248 Recovering log #59
-2026/01/20-03:12:49.417 7248 Level-0 table #61: started
-2026/01/20-03:12:49.418 7248 Level-0 table #61: 22838 bytes OK
-2026/01/20-03:12:49.419 7248 Delete type=0 #59
-2026/01/20-03:12:49.419 7248 Delete type=3 #58
+2026/01/20-04:09:24.143 a7cc Recovering log #64
+2026/01/20-04:09:24.143 a7cc Level-0 table #66: started
+2026/01/20-04:09:24.144 a7cc Level-0 table #66: 1458 bytes OK
+2026/01/20-04:09:24.146 a7cc Delete type=0 #64
+2026/01/20-04:09:24.146 a7cc Delete type=3 #63

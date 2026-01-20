@@ -1,5 +1,8 @@
-2026/01/20-03:12:49.441 7248 Recovering log #58
-2026/01/20-03:12:49.441 7248 Level-0 table #60: started
-2026/01/20-03:12:49.443 7248 Level-0 table #60: 55564 bytes OK
-2026/01/20-03:12:49.443 7248 Delete type=0 #58
-2026/01/20-03:12:49.445 7248 Delete type=3 #57
+2026/01/20-04:09:24.178 accc Recovering log #64
+2026/01/20-04:09:24.179 accc Delete type=2 #24
+2026/01/20-04:09:24.179 accc Delete type=2 #36
+2026/01/20-04:09:24.179 accc Delete type=2 #39
+2026/01/20-04:09:24.179 accc Delete type=2 #60
+2026/01/20-04:09:24.180 accc Delete type=2 #63
+2026/01/20-04:09:24.180 accc Delete type=0 #64
+2026/01/20-04:09:24.180 accc Delete type=3 #62
