@@ -1,0 +1,8 @@
+2026/01/20-03:12:49.477 99c0 Recovering log #56
+2026/01/20-03:12:49.477 99c0 Level-0 table #58: started
+2026/01/20-03:12:49.478 99c0 Level-0 table #58: 259 bytes OK
+2026/01/20-03:12:49.479 99c0 Delete type=0 #56
+2026/01/20-03:12:49.479 99c0 Delete type=3 #55
+2026/01/20-03:12:49.479 a4c4 Compacting 4@0 + 0@1 files
+2026/01/20-03:12:49.480 a4c4 Compacted 4@0 + 0@1 files => 0 bytes
+2026/01/20-03:12:49.480 a4c4 compacted to: files[ 0 0 0 0 0 0 0 ]

@@ -1,0 +1,443 @@
+{
+	"id": "arcana-world",
+	"title": "Arcana World",
+	"version": "1.0.0",
+	"compatibility": {
+    		"minimum": "12",
+    		"verified": "12"
+  	},
+	"relationships": {
+		"requires": [
+			{
+				"id": "pf2e-dailies",
+				"type": "module",
+				"compatibility": {}
+			}
+		],
+   		"systems": [
+      			{
+        			"id": "pf2e",
+        			"type": "system",
+        			"compatibility": {}
+      			}
+    		]
+  	},
+	"description": "Homebrewed Content for the Arcana World Setting",
+	"authors": [
+		{
+			"name": "Krsnik",
+			"flags": {}
+		}
+	],
+	"packs": [
+		{
+			"label": "Actions",
+			"type": "Item",
+			"name": "arcana-world-actions",
+			"path": "./packs/actions",
+			"system": "pf2e",
+			"package": "arcana-world",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Ancestry",
+			"type": "Item",
+			"name": "arcana-world-ancestry",
+			"path": "./packs/ancestry",
+			"system": "pf2e",
+			"package": "arcana-world",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Archetypes",
+			"type": "Item",
+			"name": "arcana-world-archetypes",
+			"path": "./packs/archetypes",
+			"system": "pf2e",
+			"package": "arcana-world",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Characters",
+			"type": "Actor",
+			"name": "arcana-world-characters",
+			"path": "./packs/characters",
+			"system": "pf2e",
+			"package": "arcana-world",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Class",
+			"type": "Item",
+			"name": "arcana-world-class",
+			"path": "./packs/class",
+			"system": "pf2e",
+			"package": "arcana-world",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Creatures",
+			"type": "Actor",
+			"name": "arcana-world-creatures",
+			"path": "./packs/creatures",
+			"system": "pf2e",
+			"package": "arcana-world",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Effects",
+			"type": "Item",
+			"name": "arcana-world-effects",
+			"path": "./packs/effects",
+			"system": "pf2e",
+			"package": "arcana-world",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Equipment",
+			"type": "Item",
+			"name": "arcana-world-equipment",
+			"path": "./packs/equipment",
+			"system": "pf2e",
+			"package": "arcana-world",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Facets",
+			"type": "Item",
+			"name": "arcana-world-facets",
+			"path": "./packs/facets",
+			"system": "pf2e",
+			"package": "arcana-world",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Feats",
+			"type": "Item",
+			"name": "arcana-world-feats",
+			"path": "./packs/feats",
+			"system": "pf2e",
+			"package": "arcana-world",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Features",
+			"type": "Item",
+			"name": "arcana-world-features",
+			"path": "./packs/features",
+			"system": "pf2e",
+			"package": "arcana-world",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Notes",
+			"type": "JournalEntry",
+			"name": "arcana-world-notes",
+			"path": "./packs/notes",
+			"system": "pf2e",
+			"package": "arcana-world",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Macros",
+			"type": "Item",
+			"name": "arcana-world-macros",
+			"path": "./packs/macros",
+			"system": "pf2e",
+			"package": "arcana-world",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Spells",
+			"type": "Item",
+			"name": "arcana-world-spells",
+			"path": "./packs/spells",
+			"system": "pf2e",
+			"package": "arcana-world",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		}
+	],
+	"packFolders": [
+		{
+			"name": "Arcana World",
+			"sorting": "m",
+			"packs": [
+				"arcana-world-actions",
+				"arcana-world-ancestry",
+				"arcana-world-characters",
+				"arcana-world-class",
+				"arcana-world-creatures",
+				"arcana-world-effects",
+				"arcana-world-equipment",
+				"arcana-world-facets",
+				"arcana-world-feats",
+				"arcana-world-features",
+				"arcana-world-macros",
+				"arcana-world-notes",
+				"arcana-world-spells"
+			]
+		}
+	],
+	"flags": {
+		"arcana-world": {
+			"pf2e-homebrew": {
+				"classTraits": {
+					"actualizer": {
+						"label": "Actualizer",
+						"description": "You are a being imbued with mystical energies which you use to distort the very fabric that composes your reality."
+					},
+					"invoker": {
+						"label": "Invoker",
+						"description": "You invoke your will into the shape of a figure which stands besides you in all trials and tribulations."
+					}
+				},
+				"creatureTraits": {
+					"lamia": "Lamia",
+					"ma-zu": "Ma-Zu",
+					"ryujin": "Ryujin",
+					"tao": {
+						"label": "Tao",
+						"description": "A special energy that encompasses all of reality, holding all four essences."
+					}
+				},
+				"featTraits": {
+					"bloodArt": {
+						"label": "Blood Art",
+						"description": "Blood Arts are special techniques exclusive to those called Hemoknights. These techniques are abilities that are utilized through the visceral power of blood."
+					},
+					"greaterFacet": {
+						"label": "Greater Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a greater ability, effect or property."
+					},
+					"kineticCharm":{
+						"label": "Kinetic Charm",
+						"description": "The exclusive trait of the Kinetic Charm.."
+					},
+					"lamia": "Lamia",
+					"lesserFacet": {
+						"label": "Lesser Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a lesser ability, effect or property."
+					},
+					"majorFacet": {
+						"label": "Major Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a major ability, effect or property."
+					},
+					"ma-zu": "Ma-Zu",
+					"mentem": {
+						"label": "Mentem",
+						"description": "Mentems are special items created with the essences of Mind and Spirit synthesized into the essence of Matter. Actions, Effects and Items with this trait are always tied to a Mentem of some kind."
+					},
+					"minorFacet": {
+						"label": "Minor Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a minor ability, effect or property."
+					},
+					"ryujin": "Ryujin",
+					"supremeFacet": {
+						"label": "Supreme Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a supreme ability, effect or property."
+					},
+					"tao": {
+						"label": "Tao",
+						"description": "A special energy that encompasses all of reality, holding all four essences."
+					},
+					"unity": {
+						"label": "Unity",
+						"description": "Special composite impulses which require two or more separate kineticists to be used. Due to the nature of these impulses, the kineticists need to be within a certain distance of each other along with other requirements. These impulses will never have the overflow trait but each has a frequency of 1 or more rounds."
+					}
+				},
+				"spellTraits": {
+					"actualizer": {
+						"label": "Actualizer"
+					},
+					"quantum": {
+						"label": "Quantum",
+						"description": "A special focus Spell that manipulates the fabric of reality."
+					},
+					"tao": {
+						"label": "Tao",
+						"description": "A special energy that encompasses all of reality, holding all four essences."
+					}
+				},
+				"weaponTraits": {
+					"bloodWeapon": {
+						"label": "Blood Weapon",
+						"description": "Blood Weapons are weapons made from the visceral energies found in blood, typically crafted and wielded by hemoknights."
+					},
+					"greaterFacet": {
+						"label": "Greater Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a greater ability, effect or property."
+					},
+					"kineticCharm":{
+						"label": "Kinetic Charm",
+						"description": "The exclusive trait of the Kinetic Charm.."
+					},
+					"lamia": "Lamia",
+					"lesserFacet": {
+						"label": "Lesser Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a lesser ability, effect or property."
+					},
+					"majorFacet": {
+						"label": "Major Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a major ability, effect or property."
+					},
+					"ma-zu": "Ma-Zu",
+					"mentem": {
+						"label": "Mentem",
+						"description": "Mentems are special items created with the essences of Mind and Spirit synthesized into the essence of Matter. Actions, Effects and Items with this trait are always tied to a Mentem of some kind."
+					},
+					"minorFacet": {
+						"label": "Minor Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a minor ability, effect or property."
+					},
+					"rush": {
+						"label": "Rush",
+						"description": "Rush: This weapon becomes more dangerous when true momentum is put behind it. If your last action before making a Strike with a rush weapon was a move action or if you use an action that lets you move before making a Strike with this weapon, increase the size of this weapon's damage die by one step for every 10 feet you moved, up to a maximum of three steps. Additionally, you gain a +1 circumstance bonus to the attack roll of the Strike if you've moved at least 20 feet and a +2 circumstance bonus to the attack roll of the Strike if you've moved at least 40 feet."
+					},
+					"ryujin": "Ryujin",
+					"supremeFacet": {
+						"label": "Supreme Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a supreme ability, effect or property."
+					},
+					"tao": {
+						"label": "Tao",
+						"description": "A special energy that encompasses all of reality, holding all four essences."
+					}
+				},
+				"shieldTraits": {
+					"bloodWeapon": {
+						"label": "Blood Weapon",
+						"description": "Blood Weapons are weapons made from the visceral energies found in blood, typically crafted and wielded by hemoknights."
+					},
+					"greaterFacet": {
+						"label": "Greater Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a greater ability, effect or property."
+					},
+					"kineticCharm":{
+						"label": "Kinetic Charm",
+						"description": "The exclusive trait of the Kinetic Charm.."
+					},
+					"lesserFacet": {
+						"label": "Lesser Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a lesser ability, effect or property."
+					},
+					"majorFacet": {
+						"label": "Major Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a major ability, effect or property."
+					},
+					"mentem": {
+						"label": "Mentem",
+						"description": "Mentems are special items created with the essences of Mind and Spirit synthesized into the essence of Matter. Actions, Effects and Items with this trait are always tied to a Mentem of some kind."
+					},
+					"minorFacet": {
+						"label": "Minor Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a minor ability, effect or property."
+					},
+					"rush": {
+						"label": "Rush",
+						"description": "This weapon becomes more dangerous when true momentum is put behind it. If your last action before making a Strike with a rush weapon was a move action or if you use an action that lets you move before making a Strike with this weapon, increase the size of this weapon's damage die by one step for every 10 feet you moved, up to a maximum of three steps."
+					},
+					"supremeFacet": {
+						"label": "Supreme Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a supreme ability, effect or property."
+					},
+					"tao": {
+						"label": "Tao",
+						"description": "A special energy that encompasses all of reality, holding all four essences."
+					}
+				},
+				"equipmentTraits": {
+					"accessory": {
+						"label": "Accessory",
+						"description": "An item with this trait is a special type of mentem that is not an armor, shield or weapon."
+					},
+					"bloodWeapon": {
+						"label": "Blood Weapon",
+						"description": "Blood Weapons are weapons made from the visceral energies found in blood, typically crafted and wielded by hemoknights."
+					},
+					"greaterFacet": {
+						"label": "Greater Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a greater ability, effect or property."
+					},
+					"kineticCharm":{
+						"label": "Kinetic Charm",
+						"description": "The exclusive trait of the Kinetic Charm.."
+					},
+					"lamia": "Lamia",
+					"lesserFacet": {
+						"label": "Lesser Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a lesser ability, effect or property."
+					},
+					"majorFacet": {
+						"label": "Major Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a major ability, effect or property."
+					},
+					"ma-zu": "Ma-Zu",
+					"mentem": {
+						"label": "Mentem",
+						"description": "Mentems are special items created with the essences of Mind and Spirit synthesized into the essence of Matter. Actions, Effects and Items with this trait are always tied to a Mentem of some kind."
+					},
+					"minorFacet": {
+						"label": "Minor Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a minor ability, effect or property."
+					},
+					"ryujin": "Ryujin",
+					"supremeFacet": {
+						"label": "Supreme Facet",
+						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a supreme ability, effect or property."
+					},
+					"tao": {
+						"label": "Tao",
+						"description": "A special energy that encompasses all of reality, holding all four essences."
+					}
+				}
+			}
+		}
+	},
+	"url": "https://github.com/kritikalKreznik/arcana-world",
+	"manifest": "https://raw.githubusercontent.com/kritikalKreznik/arcana-world/master/module.json",
+	"download": "https://github.com/kritikalKreznik/arcana-world/archive/refs/heads/main.zip",
+	"esmodules": [
+	]
+}
