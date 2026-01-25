@@ -103,6 +103,18 @@
 			}
 		},
 		{
+			"label": "Curses",
+			"type": "Item",
+			"name": "arcana-world-curses",
+			"path": "./packs/curses",
+			"system": "pf2e",
+			"package": "arcana-world",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
 			"label": "Effects",
 			"type": "Item",
 			"name": "arcana-world-effects",
@@ -206,9 +218,11 @@
 			"packs": [
 				"arcana-world-actions",
 				"arcana-world-ancestry",
+				"arcana-world-archetypes",
 				"arcana-world-characters",
 				"arcana-world-class",
 				"arcana-world-creatures",
+				"arcana-world-curses",
 				"arcana-world-effects",
 				"arcana-world-equipment",
 				"arcana-world-facets",
@@ -231,21 +245,47 @@
 					"invoker": {
 						"label": "Invoker",
 						"description": "You invoke your will into the shape of a figure which stands besides you in all trials and tribulations."
+					},
+					"spectralHand": {
+						"label": "Spectral Hand",
+						"description": "A creature with this trait is a Spectral Hand, a specific type of avatar. Actions and items with this trait can only be used by the spectral hand."
 					}
 				},
 				"creatureTraits": {
+					"avatar": {
+						"label": "Avatar",
+						"description": "A creature with this trait is an invoker's avatar, representing the invoker's agency. An action with this trait can be performed by only an avatar. An item with this trait can be used or worn by an avatar only, and an avatar can't use items that don't have this trait, with certain exceptions based on the avatar's abilities. (An avatar can have up to two items invested.)"
+					},
 					"lamia": "Lamia",
 					"ma-zu": "Ma-Zu",
 					"ryujin": "Ryujin",
+					"spectralHand": {
+						"label": "Spectral Hand",
+						"description": "A creature with this trait is a Spectral Hand, a specific type of avatar. Actions and items with this trait can only be used by the spectral hand."
+					},
 					"tao": {
 						"label": "Tao",
 						"description": "A special energy that encompasses all of reality, holding all four essences."
 					}
 				},
+				"damageTypes": {
+					"fracture": {
+						"label": "Fracture",
+						"category": "energy"
+					}
+				},
 				"featTraits": {
+					"avatar": {
+						"label": "Avatar",
+						"description": "A creature with this trait is an invoker's avatar, representing the invoker's agency. An action with this trait can be performed by only an avatar. An item with this trait can be used or worn by an avatar only, and an avatar can't use items that don't have this trait, with certain exceptions based on the avatar's abilities. (An avatar can have up to two items invested.)"
+					},
 					"bloodArt": {
 						"label": "Blood Art",
 						"description": "Blood Arts are special techniques exclusive to those called Hemoknights. These techniques are abilities that are utilized through the visceral power of blood."
+					},
+					"competency": {
+						"label": "Competency",
+						"description": "A feat with this trait expresses an ability your avatar has, typically as a result of it's specialty."
 					},
 					"greaterFacet": {
 						"label": "Greater Facet",
@@ -274,9 +314,17 @@
 						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a minor ability, effect or property."
 					},
 					"ryujin": "Ryujin",
+					"spectralHand": {
+						"label": "Spectral Hand",
+						"description": "A creature with this trait is a Spectral Hand, a specific type of avatar. Actions and items with this trait can only be used by the spectral hand."
+					},
 					"supremeFacet": {
 						"label": "Supreme Facet",
 						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a supreme ability, effect or property."
+					},
+					"synchronized": {
+						"label": "Synchronized",
+						"description": "Actions with this trait involve you and your avatar acting as one. You can't use a synchronized action if you haven't Invoked your Avatar, or if you've Invoked your Avatar in a way where it isn't a separate entit. Synchronized actions often typically let you and your avatar act separately, but these actions you take cannot be another tandem action."
 					},
 					"tao": {
 						"label": "Tao",
@@ -301,6 +349,10 @@
 					}
 				},
 				"weaponTraits": {
+					"avatar": {
+						"label": "Avatar",
+						"description": "A creature with this trait is an invoker's avatar, representing the invoker's agency. An action with this trait can be performed by only an avatar. An item with this trait can be used or worn by an avatar only, and an avatar can't use items that don't have this trait, with certain exceptions based on the avatar's abilities. (An avatar can have up to two items invested.)"
+					},
 					"bloodWeapon": {
 						"label": "Blood Weapon",
 						"description": "Blood Weapons are weapons made from the visceral energies found in blood, typically crafted and wielded by hemoknights."
@@ -340,12 +392,20 @@
 						"label": "Supreme Facet",
 						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a supreme ability, effect or property."
 					},
+					"spectralHand": {
+						"label": "Spectral Hand",
+						"description": "A creature with this trait is a Spectral Hand, a specific type of avatar. Actions and items with this trait can only be used by the spectral hand."
+					},
 					"tao": {
 						"label": "Tao",
 						"description": "A special energy that encompasses all of reality, holding all four essences."
 					}
 				},
 				"shieldTraits": {
+					"avatar": {
+						"label": "Avatar",
+						"description": "A creature with this trait is an invoker's avatar, representing the invoker's agency. An action with this trait can be performed by only an avatar. An item with this trait can be used or worn by an avatar only, and an avatar can't use items that don't have this trait, with certain exceptions based on the avatar's abilities. (An avatar can have up to two items invested.)"
+					},
 					"bloodWeapon": {
 						"label": "Blood Weapon",
 						"description": "Blood Weapons are weapons made from the visceral energies found in blood, typically crafted and wielded by hemoknights."
@@ -378,6 +438,10 @@
 						"label": "Rush",
 						"description": "This weapon becomes more dangerous when true momentum is put behind it. If your last action before making a Strike with a rush weapon was a move action or if you use an action that lets you move before making a Strike with this weapon, increase the size of this weapon's damage die by one step for every 10 feet you moved, up to a maximum of three steps."
 					},
+					"spectralHand": {
+						"label": "Spectral Hand",
+						"description": "A creature with this trait is a Spectral Hand, a specific type of avatar. Actions and items with this trait can only be used by the spectral hand."
+					},
 					"supremeFacet": {
 						"label": "Supreme Facet",
 						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a supreme ability, effect or property."
@@ -391,6 +455,10 @@
 					"accessory": {
 						"label": "Accessory",
 						"description": "An item with this trait is a special type of mentem that is not an armor, shield or weapon."
+					},
+					"avatar": {
+						"label": "Avatar",
+						"description": "A creature with this trait is an invoker's avatar, representing the invoker's agency. An action with this trait can be performed by only an avatar. An item with this trait can be used or worn by an avatar only, and an avatar can't use items that don't have this trait, with certain exceptions based on the avatar's abilities. (An avatar can have up to two items invested.)"
 					},
 					"bloodWeapon": {
 						"label": "Blood Weapon",
@@ -423,6 +491,10 @@
 						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a minor ability, effect or property."
 					},
 					"ryujin": "Ryujin",
+					"spectralHand": {
+						"label": "Spectral Hand",
+						"description": "A creature with this trait is a Spectral Hand, a specific type of avatar. Actions and items with this trait can only be used by the spectral hand."
+					},
 					"supremeFacet": {
 						"label": "Supreme Facet",
 						"description": "A Facet is an ability, effect or property of a mentem. A Facet of this type grants a supreme ability, effect or property."

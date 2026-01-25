@@ -1,5 +1,5 @@
-2026/01/20-04:05:24.050 ac14 Recovering log #59
-2026/01/20-04:05:24.050 ac14 Level-0 table #62: started
-2026/01/20-04:05:24.051 ac14 Level-0 table #62: 3916 bytes OK
-2026/01/20-04:05:24.052 ac14 Delete type=0 #59
-2026/01/20-04:05:24.053 ac14 Delete type=3 #57
+2026/01/25-15:19:03.044 85dc Recovering log #89
+2026/01/25-15:19:03.044 85dc Level-0 table #91: started
+2026/01/25-15:19:03.044 85dc Level-0 table #91: 6766 bytes OK
+2026/01/25-15:19:03.047 85dc Delete type=0 #89
+2026/01/25-15:19:03.047 85dc Delete type=3 #87
